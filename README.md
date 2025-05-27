@@ -21,8 +21,6 @@ Source: UCI Machine Learning Repository
 
 Number of Samples: 150
 
-Number of Classes: 3 (Each class has 50 samples)
-
 Features (all numeric):
 
 Sepal Length (cm)
@@ -50,12 +48,6 @@ Versicolor & Virginica: Overlapping features, harder to distinguish
 3. Exploratory Data Analysis (EDA)
 
 Use tools like Pandas, Matplotlib, and Seaborn for:
-
-Pair plots: Visualizes feature relationships across species
-
-Box plots: Shows distribution and outliers
-
-Histograms: Understand frequency distribution
 
 Correlation Matrix: Detects linear relationships
 
@@ -91,10 +83,6 @@ Feature scaling (optional for some models like KNN, SVM)
 Common Classifiers:
 
 Logistic Regression: Simple linear model
-
-K-Nearest Neighbors (KNN): Based on proximity
-
-Support Vector Machine (SVM): Effective with small datasets
 
 Decision Tree: Non-linear, interpretable
 
